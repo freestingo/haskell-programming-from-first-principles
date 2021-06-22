@@ -25,6 +25,7 @@ source-repository head
 
 library
   exposed-modules:
+      BasicDatatypes.Exercises
       HelloHaskell.Exercises
       HelloHaskell.Hello
       Lib
