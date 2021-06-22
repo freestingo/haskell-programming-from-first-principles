@@ -31,6 +31,11 @@ library
       Lib
       Strings.Exercises
       Strings.Practice
+      Typeclasses.Exercises.EqInstances
+      Typeclasses.Exercises.TypeKwonDo
+      Typeclasses.Practice.CalendarUtils
+      Types.Exercises.Misc
+      Types.Exercises.TypeKwonDo
   other-modules:
       Paths_haskell_programming_from_first_principles
   hs-source-dirs:
