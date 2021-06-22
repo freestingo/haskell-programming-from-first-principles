@@ -1,1 +1,1 @@
-# haskell-programming-from-first-principles
+# Haskell Programming from First Principles
