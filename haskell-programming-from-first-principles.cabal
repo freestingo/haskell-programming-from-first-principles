@@ -29,6 +29,10 @@ library
       HelloHaskell.Exercises
       HelloHaskell.Hello
       Lib
+      MoreFunctionalPatterns.Exercises.CaseExpressions
+      MoreFunctionalPatterns.Exercises.Pointfree
+      MoreFunctionalPatterns.Practice.Company
+      MoreFunctionalPatterns.Practice.User
       Strings.Exercises
       Strings.Practice
       Typeclasses.Exercises.EqInstances

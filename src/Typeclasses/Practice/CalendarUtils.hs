@@ -2,7 +2,7 @@ module Typeclasses.Practice.CalendarUtils where
 
 data DayOfWeek =
   Mon | Tue | Wed | Thu | Fri | Sat | Sun
-  deriving Show
+  deriving (Ord, Show)
 
 instance Eq DayOfWeek where
     (==) Mon Mon = True
