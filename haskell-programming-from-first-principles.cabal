@@ -11,7 +11,7 @@ homepage:       https://github.com/freestingo/haskell-programming-from-first-pri
 bug-reports:    https://github.com/freestingo/haskell-programming-from-first-principles/issues
 author:         freestingo
 maintainer:     nicolo.traini@oncode.it
-copyright:      2021 Author name here
+copyright:      2021 freestingo
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
@@ -26,9 +26,20 @@ source-repository head
 library
   exposed-modules:
       BasicDatatypes.Exercises
+      FoldingLists.Exercises.DbProcessing
+      FoldingLists.Exercises.ScansAndFolds
       HelloHaskell.Exercises
       HelloHaskell.Hello
       Lib
+      Lists.Exercises.AdventOfCode
+      Lists.Exercises.CharMagic
+      Lists.Exercises.Cipher
+      Lists.Exercises.FilteringAndZipping
+      Lists.Exercises.FromTo
+      Lists.Exercises.ListComprehensions
+      Lists.Exercises.StandardFunctions
+      Lists.Exercises.ThyFearfulSymmetry
+      Lists.Practice.ListComprehensions
       MoreFunctionalPatterns.Exercises.CaseExpressions
       MoreFunctionalPatterns.Exercises.Pointfree
       MoreFunctionalPatterns.Practice.Company
@@ -48,6 +59,7 @@ library
       src
   build-depends:
       base >=4.7 && <5
+    , time
   default-language: Haskell2010
 
 executable haskell-programming-from-first-principles-exe
@@ -60,6 +72,7 @@ executable haskell-programming-from-first-principles-exe
   build-depends:
       base >=4.7 && <5
     , haskell-programming-from-first-principles
+    , time
   default-language: Haskell2010
 
 test-suite haskell-programming-from-first-principles-test
@@ -73,4 +86,5 @@ test-suite haskell-programming-from-first-principles-test
   build-depends:
       base >=4.7 && <5
     , haskell-programming-from-first-principles
+    , time
   default-language: Haskell2010

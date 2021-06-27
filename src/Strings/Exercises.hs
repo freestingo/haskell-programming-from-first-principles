@@ -16,5 +16,5 @@ getNCharFrom str ind = str !! ind
 reverseCurry :: String -> String
 reverseCurry x = unwords $ [(drop 9 x), (take 2 $ drop 6 x), (take 5 x)]
 
-myReverse :: String -> String
-myReverse = unwords . reverse . words
+myStringReverse :: String -> String
+myStringReverse = unwords . reverse . words
