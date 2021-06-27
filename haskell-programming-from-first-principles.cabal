@@ -33,6 +33,8 @@ library
       MoreFunctionalPatterns.Exercises.Pointfree
       MoreFunctionalPatterns.Practice.Company
       MoreFunctionalPatterns.Practice.User
+      Recursion.Exercises.Misc
+      Recursion.Exercises.NumbersIntoWords
       Strings.Exercises
       Strings.Practice
       Typeclasses.Exercises.EqInstances
