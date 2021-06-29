@@ -1,7 +1,8 @@
 module Main where
 
 import Lib
-import FoldingLists.Exercises.ScansAndFolds
+import AlgebraicDatatypes.Exercises.Phone
+import AlgebraicDatatypes.Exercises.HuttonsRazor
 
 main :: IO ()
 main = putStrLn "Welcome back <3"
