@@ -1,7 +1,9 @@
 module Main where
 
 import Lib
-import SignalingAdversity.Exercises.Anamorphisms
+import Lists.Exercises.AdventOfCode
 
 main :: IO ()
-main = putStrLn "Welcome back <3"
+main = do
+  putStrLn "Welcome back <3"
+  checkPassword
