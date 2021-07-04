@@ -1,5 +1,7 @@
 module FoldingLists.Exercises.ScansAndFolds where
 
+import Control.Applicative (liftA3)
+
 -- infinite Fibonacci sequence generator
 fibs :: [Integer]
 fibs = 1 : scanl (+) 1 fibs
@@ -79,14 +81,22 @@ combinations = [ (x, y, z) | x <- stops
                ]
 
 {-|
+   Remember the vowels and stops exercise in the folds chapter?
+   Write the function to generate the possible combinations of three
+   input lists using `liftA3` from `Control.Applicative`.
+-}
+combinationsLift :: [a] -> [b] -> [c] -> [(a, b, c)]
+combinationsLift = liftA3 (,,)
+
+{-|
    Modify that function so that it only returns
    the combinations that begin with a `p`.
 -}
 pCombinations :: [(Char, Char, Char)]
 pCombinations = [ (x, y, z) | x <- stops
+                            , x == 'p'
                             , y <- vowels
                             , z <- stops
-                            , x == 'p'
                 ]
 
 {-|
