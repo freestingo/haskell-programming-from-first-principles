@@ -1,8 +1,10 @@
 module Main where
 
-import Functor.Practice.FMappingExtravaganza
-import Functor.Exercises.Fmapping
-import Functor.Exercises.FunctorInstances
+import Applicative.Exercises.Lookups
+import Applicative.Practice.Person
+import FoldingLists.Exercises.ScansAndFolds
+import Monad.Exercises.Misc
+import Monad.Practice.MonadExamples
 
 main :: IO ()
 main = do
