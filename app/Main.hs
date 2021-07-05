@@ -1,10 +1,8 @@
 module Main where
 
-import Applicative.Exercises.Lookups
-import Applicative.Practice.Person
-import FoldingLists.Exercises.ScansAndFolds
-import Monad.Exercises.Misc
-import Monad.Practice.MonadExamples
+import Monad.Exercises.CodewarsCinema
+import Foldable.Exercises.LibraryFunctions
+import Foldable.Exercises.Instances
 
 main :: IO ()
 main = do
