@@ -26,6 +26,12 @@ dependencies:
 - random-shuffle
 - transformers
 - QuickCheck
+- trifecta
+- parsers
+- raw-strings-qq
+- aeson
+- bytestring
+- mtl
 
 library:
   source-dirs: src
